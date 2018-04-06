@@ -1,0 +1,190 @@
+html, body {
+	width: 100%;
+	height:100%;
+	margin: 0;
+}
+
+  *.heading1 {
+	font-family: Thompson Modern;
+	margin: auto;
+}
+
+body {
+	background-color: #FFF;
+}
+
+*.videocontainers {
+	width: 60.0%;
+	margin: 0 auto;
+}
+
+*.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25.0px;
+	height: 0;
+	margin: 0 auto;
+}
+
+*.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100.0%;
+	height: 100.0%;
+}
+
+*.testimonial {
+	height: 200.0px;
+	text-align: center;
+	color: white;
+	padding: 10.0%;
+	position: relative;
+	z-index: 1;
+}
+
+*.square {
+	color: white;
+	padding: 2.0%;
+	font-size: 50.0%;
+	float: none;
+}
+
+*.video {
+	margin: 0 auto;
+}
+
+h4 {
+	font-family: Thompson Modern;
+	color: rgb(123,146,162);
+	text-align: center;
+	margin: 30.0px 23.0%;
+}
+
+hr {
+	width: 4.0%;
+	height: 5.0px;
+	background-color: rgb(155,182,201);
+	margin: 20.0px auto 20.0px auto;
+}
+
+p {
+	clear: both;
+}
+
+*.collegelogo {
+	float: none;
+	cursor: pointer;
+}
+
+*.applybtn {
+	background-color: white;
+	border: rgb(0,182,230) solid;
+	font-family: Arial;
+	color: rgb(0,182,230);
+	padding: 1.0% 5.0%;
+	width: 100.0%;
+	height: 3.0%;
+}
+
+a, a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: rgb(0,182,230);
+}
+
+a:hover, a:active {
+	color: white;
+	background-color: rgb(0,182,230);
+}
+
+ input[type=checkbox] {
+ 	opacity: 0;
+ }
+
+ input:checked ~ p {
+ 	display: none;
+ }
+
+ .imgcontainer {
+ 	margin: 0 auto;
+ 	position: relative;
+ 	width: 100%;
+ 	background: #0C2C4F;
+ 	margin-top: 30px;
+ 	height: 400px;
+ }
+
+ .slide_img {
+ 	width:100%;
+ 	height:100%;
+ 	position: absolute;
+ 	padding-top: 8px;
+ 	padding-bottom: 8px;
+
+ }
+
+ .slide_img img {
+ 	height: 100%;
+ 	margin: 0 auto;
+ }
+
+ #i1, #i2, #i3 {
+ 	display: none;
+ }
+
+.pre, .next {
+	width: 12%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: rgba(88,88,88,.2);
+	z-index: 99;
+	cursor:pointer;
+}
+
+.pre {
+	left:0;
+}
+
+.next {
+	right: 0;
+}
+
+.nav {
+	width: 100%;
+	height: 11px;
+	text-align: center;
+	z-index: 99;
+	bottom: -12px;
+}
+
+.dots {
+	position: relative;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin: 0 4px;
+	background: rgba(0,0,0,.6);
+	display: inline-block;
+	top: 370px;
+	z-index: 99;
+}
+
+.slide_img {
+	z-index: -1;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three {
+	z-index: 9;
+}
+
+#i1:checked ~ .nav #dot1,
+#i2:checked ~ .nav #dot2,
+#i3:checked ~ .nav #dot3 {
+	background: #FFF;
+}
