@@ -65,7 +65,7 @@ hr {
 	width: 4.0%;
 	height: 5.0px;
 	background-color: rgb(155,182,201);
-	margin: 20.0px auto 20.0px auto;
+	margin: 40.0px auto 40.0px auto;
 }
 
 p {
@@ -113,8 +113,9 @@ a:hover, a:active {
  	position: relative;
  	width: 100%;
  	background: #0C2C4F;
- 	margin-top: 30px;
- 	height: 400px;
+ 	margin-top: 50px;
+ 	height: 600px;
+ 	margin-bottom: 50px;
  }
 
  .slide_img {
@@ -131,7 +132,7 @@ a:hover, a:active {
  	margin: 0 auto;
  }
 
- #i1, #i2, #i3 {
+ #i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9, #i10, #i11, #i12, #i13, #i14, #i15, #i16, #i17 {
  	display: none;
  }
 
@@ -169,7 +170,7 @@ a:hover, a:active {
 	margin: 0 4px;
 	background: rgba(0,0,0,.6);
 	display: inline-block;
-	top: 370px;
+	top: 570px;
 	z-index: 99;
 }
 
@@ -179,12 +180,41 @@ a:hover, a:active {
 
 #i1:checked ~ #one,
 #i2:checked ~ #two,
-#i3:checked ~ #three {
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five,
+#i6:checked ~ #six,
+#i7:checked ~ #seven,
+#i8:checked ~ #eight,
+#i9:checked ~ #nine,
+#i10:checked ~ #ten,
+#i11:checked ~ #eleven,
+#i12:checked ~ #twelve,
+#i13:checked ~ #thirteen,
+#i14:checked ~ #fourteen,
+#i15:checked ~ #fifteen,
+#i16:checked ~ #sixteen,
+#i17:checked ~ #seventeen {
 	z-index: 9;
 }
 
-#i1:checked ~ .nav #dot1,
-#i2:checked ~ .nav #dot2,
-#i3:checked ~ .nav #dot3 {
+#i1:checked ~ .nav #dot1, #i2:checked ~ .nav #dot1, #i3:checked ~ .nav #dot1, #i4:checked ~ .nav #dot1 {
 	background: #FFF;
+}
+
+#i5:checked ~ .nav #dot2, #i6:checked ~ .nav #dot2, #i7:checked ~ .nav #dot2, #i8:checked ~ .nav #dot2 {
+	background: #FFF;
+}
+
+#i9:checked ~ .nav #dot3, #i10:checked ~ .nav #dot3, #i11:checked ~ .nav #dot3, #i12:checked ~ .nav #dot3, #i13:checked ~ .nav #dot3 {
+	background: #FFF;
+} 
+
+#i14:checked ~ .nav #dot4, #i15:checked ~ .nav #dot4, #i16:checked ~ .nav #dot4, #i17:checked ~ .nav #dot4 {
+	background: #FFF;
+}
+
+
+.meet-title {
+	margin-top: 50px;
 }
