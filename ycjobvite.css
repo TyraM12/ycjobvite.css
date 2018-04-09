@@ -110,7 +110,7 @@ a:hover, a:active {
  .imgcontainer {
  	margin: 0 auto;
  	position: relative;
- 	width: 100%;
+ 	width: 100vw;
 /*  	background: #0C2C4F; */
  	margin-top: 50px;
  	height: 600px;
