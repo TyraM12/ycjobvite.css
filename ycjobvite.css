@@ -115,6 +115,7 @@ a:hover, a:active {
  	margin-top: 50px;
  	height: 600px;
  	margin-bottom: 50px;
+	z-index: 0;
  }
 
  .slide_img {
