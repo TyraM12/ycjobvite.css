@@ -110,12 +110,11 @@ a:hover, a:active {
  .imgcontainer {
  	margin: 0 auto;
  	position: relative;
- 	width: 1000px;
+ 	width: 1000%;
   	background: #0C2C4F; 
  	margin-top: 50px;
  	height: 600px;
  	margin-bottom: 50px;
-	z-index: 0;
  }
 
  .slide_img {
