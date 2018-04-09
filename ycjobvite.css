@@ -112,7 +112,7 @@ a:hover, a:active {
  	margin: 0 auto;
  	position: relative;
  	width: 100%;
- 	background: #0C2C4F;
+ 	background: #00F; /* #0C2C4F */
  	margin-top: 50px;
  	height: 600px;
  	margin-bottom: 50px;
