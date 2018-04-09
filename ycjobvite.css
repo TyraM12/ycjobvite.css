@@ -110,6 +110,7 @@ a:hover, a:active {
  	height: 680px;
  	margin-bottom: 90px;
  	padding: 50px;
+	z-index: 0;
  }
 
  .slide_img {
