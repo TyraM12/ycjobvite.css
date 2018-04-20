@@ -100,20 +100,18 @@ a:hover, a:active {
 	background-color: rgb(0,182,230);
 }
 
-@media screen (min-device-width: 1060px) {
  .imgcontainer {
  	margin: 0 auto;
  	position: relative;
  	width: 100%;
  	background: #0C2C4F;
  	margin-top: 50px;
- 	height: 680px;
+ 	height: 480px;
  	margin-bottom: 90px;
  	padding: 50px;
 	z-index: 0;
  }
-}
-	
+/* 	
  @media screen (min-width: 320px) and (max-width: 1060px) {
       .imgcontainer {
 	  margin: 0 auto;
@@ -126,7 +124,7 @@ a:hover, a:active {
 	  padding: 20px;
 	  z-index: 0;
 	 }
-    }
+    } */
 
  .slide_img {
  	margin-top: 9px;
