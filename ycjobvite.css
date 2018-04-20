@@ -114,7 +114,10 @@ a:hover, a:active {
 
 @media only screen and (max-width: 730px) {
 	.slide_img > img {
-		height: 10%; !important
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		height: auto;
 	}
 }
  
