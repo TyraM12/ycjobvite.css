@@ -112,7 +112,7 @@ a:hover, a:active {
 	z-index: 0;
  }
 
-@media only screen and (max-width: 730px) {
+/* @media only screen and (max-width: 730px) {
 	.slide_img > img {
 		display: block;
 		width: 90%;
@@ -120,22 +120,7 @@ a:hover, a:active {
 		height: auto;
 	}
 }
- 
-
-/* 	
- @media screen (min-width: 320px) and (max-width: 1060px) {
-      .imgcontainer {
-	  margin: 0 auto;
-	  position: relative;
-	  width: 100%;
-	  background: #FFF;
-	  margin-top: 20px;
-	  height: 480px;
-	  margin-bottom: 30px;
-	  padding: 20px;
-	  z-index: 0;
-	 }
-    } */
+ */
 
  .slide_img {
  	margin-top: 9px;
