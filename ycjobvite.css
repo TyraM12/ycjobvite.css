@@ -106,24 +106,16 @@ a:hover, a:active {
  	width: 100%;
  	background: #0C2C4F;
  	margin-top: 50px;
- 	height: 480px;
+ 	height: 680px;
  	margin-bottom: 90px;
  	padding: 50px;
 	z-index: 0;
  }
 
 @media only screen and (max-width: 730px) {
-	 .imgcontainer {
- 	margin: 0 auto;
- 	position: relative;
- 	width: 100%;
- 	background: #F00; !important
- 	margin-top: 50px;
- 	height: 480px;
- 	margin-bottom: 90px;
- 	padding: 50px;
-	z-index: 0;
-   }
+	.slide_img > img {
+		height: 100%; !important
+	}
 }
  
 
