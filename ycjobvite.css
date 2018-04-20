@@ -114,7 +114,7 @@ a:hover, a:active {
 
 @media only screen and (max-width: 730px) {
 	.slide_img > img {
-		height: 100%; !important
+		height: 40%; !important
 	}
 }
  
