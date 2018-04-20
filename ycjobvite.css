@@ -112,6 +112,20 @@ a:hover, a:active {
 	z-index: 0;
  }
 
+ @media screen (min-width: 320px) and (max-width: 768px) {
+      .imgcontainer {
+	  margin: 0 auto;
+	  position: relative;
+	  width: 100%;
+	  background: #0C2C4F;
+	  margin-top: 20px;
+	  height: 480px;
+	  margin-bottom: 30px;
+	  padding: 20px;
+	  z-index: 0;
+	 }
+    }
+
  .slide_img {
  	margin-top: 9px;
  	padding-bottom: 8px;
