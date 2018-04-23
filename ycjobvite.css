@@ -112,15 +112,12 @@ a:hover, a:active {
 	z-index: 0;
  }
 
-/* @media only screen and (max-width: 730px) {
-	.slide_img > img {
-		display: block;
-		width: 90%;
-		margin: 0 auto;
-		height: auto;
+@media only screen and (max-width: 730px) {
+	.imgcontainer {
+		background: #FFF
 	}
 }
- */
+
 
  .slide_img {
  	margin-top: 9px;
