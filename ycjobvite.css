@@ -138,11 +138,11 @@ a:hover, a:active {
 
 bottom-img {
 	margin-top: 2px
-	transform: scaleY(0.8);
-	-webkit-transform: scaleY(0.8);
-	-o-transform: scaleY(0.8);
-	-ms-transform: scaleY(0.8);
-	-moz-transform: scaleY(0.8);
+	transform: scaleY(0.6);
+	-webkit-transform: scaleY(0.6);
+	-o-transform: scaleY(0.6);
+	-ms-transform: scaleY(0.6);
+	-moz-transform: scaleY(0.6);
 }
 
 .meet-title {
