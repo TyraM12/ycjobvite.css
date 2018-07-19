@@ -121,7 +121,7 @@ a:hover, a:active {
 
  .slide_img {
  	margin-top: 9px;
- 	padding-bottom: 8px;
+ 	padding-bottom: 4px;
  }
 
  .slide_img img {
@@ -129,11 +129,11 @@ a:hover, a:active {
  }
 
 .midimg {
-	transform: scale(0.5);
-	-webkit-transform: scale(0.5);
-	-o-transform: scale(0.5);
-	-ms-transform: scale(0.5);
-	-moz-transform: scale(0.5);
+	transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-moz-transform: scale(0.8);
 }
 
 
