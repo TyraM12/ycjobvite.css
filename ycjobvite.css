@@ -106,7 +106,7 @@ a:hover, a:active {
  	width: 100%;
  	background: #0C2C4F;
  	margin-top: 50px;
- 	height: 790px;
+ 	height: 680px;
  	margin-bottom: 90px;
  	padding: 50px;
 	z-index: 0;
@@ -137,12 +137,12 @@ a:hover, a:active {
 }
 
 .bottom-img {
-	margin-top: 2px;
-	transform: scaleY(0.6);
-	-webkit-transform: scaleY(0.6);
-	-o-transform: scaleY(0.6);
-	-ms-transform: scaleY(0.6);
-	-moz-transform: scaleY(0.6);
+	margin-top: -15px;
+	transform: scale(0.6);
+	-webkit-transform: scale(0.6);
+	-o-transform: scale(0.6);
+	-ms-transform: scale(0.6);
+	-moz-transform: scale(0.6);
 }
 
 .meet-title {
