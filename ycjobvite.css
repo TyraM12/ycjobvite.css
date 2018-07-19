@@ -136,8 +136,8 @@ a:hover, a:active {
 	-moz-transform: scale(0.8);
 }
 
-bottom-img {
-	margin-top: 2px
+.bottom-img {
+	margin-top: 2px;
 	transform: scaleY(0.6);
 	-webkit-transform: scaleY(0.6);
 	-o-transform: scaleY(0.6);
