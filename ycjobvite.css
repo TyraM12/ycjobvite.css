@@ -106,13 +106,13 @@ a:hover, a:active {
  	width: 100%;
  	background: #0C2C4F;
  	margin-top: 50px;
- 	height: 780px;
- 	margin-bottom: 90px;
+ 	height: 70vw;
+ 	margin-bottom: 6vw;
  	padding: 50px;
 	z-index: 0;
  }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 991px) {
 	.imgcontainer {
 		background: #FFF
 	}
@@ -136,14 +136,14 @@ a:hover, a:active {
 	-moz-transform: scale(0.8);
 }
 
-.bottom-img {
+/* .bottom-img {
 	margin-top: -15px;
 	transform: scale(0.75);
 	-webkit-transform: scale(0.75);
 	-o-transform: scale(0.75);
 	-ms-transform: scale(0.75);
 	-moz-transform: scale(0.75);
-}
+} */
 
 .meet-title {
 	margin-top: 50px;
