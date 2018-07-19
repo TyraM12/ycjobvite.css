@@ -117,7 +117,7 @@ a:hover, a:active {
 		background: #FFF
 	}
 	
-	.marg-fix {
+	#marg-fix {
 	margin-top: -27vw;
 	}
 }
