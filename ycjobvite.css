@@ -106,7 +106,7 @@ a:hover, a:active {
  	width: 100%;
  	background: #0C2C4F;
  	margin-top: 50px;
- 	height: 680px;
+ 	height: 780px;
  	margin-bottom: 90px;
  	padding: 50px;
 	z-index: 0;
@@ -127,6 +127,14 @@ a:hover, a:active {
  .slide_img img {
  	margin: 0 auto;
  }
+
+.midimg {
+	transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	-o-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+}
 
 
 .meet-title {
