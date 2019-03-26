@@ -80,11 +80,11 @@ p {
 *.applybtn {
 	background-color: white;
 	border: rgb(0,182,230) solid;
-	font-family: Arial;
+	font-family: Times New Roman;
 	color: rgb(0,182,230);
 	padding: 1.0% 5.0%;
 	width: 100.0%;
-	height: 3.0%;
+	height: 10.0%;
 }
 
 a, a:hover, a:visited, a:link, a:active {
