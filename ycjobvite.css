@@ -79,9 +79,9 @@ p {
 
 *.applybtn {
 	background-color: white;
-	border: rgb(11,74,233) solid;
+	border: rgb(0,182,230) solid;
 	font-family: Arial;
-	color: rgb(11,74,233);
+	color: rgb(0,182,230);
 	padding: 1.0% 5.0%;
 	width: 100.0%;
 	height: 3.0%;
