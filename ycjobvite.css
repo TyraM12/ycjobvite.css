@@ -7,15 +7,62 @@ html, body {
 
   *.heading1 {
 	font-family: Thompson Modern;
-	margin: auto;
+	/* margin: auto; */
 }
+
 
 body {
 	background-color: #FFF;
 }
 
+body .container{
+	padding: 10px 7vw;
+}
+#top-banner {
+	min-height: 130px;
+}
+
+#YC-logo {
+	margin-top: 50.0px; 
+	display: inline-block; 
+	width: 25%;
+	min-width: 270px;
+}
+
+
+h1 {
+	margin-top: 50.0px;
+	font-family: Thompson Modern;
+	color: black;
+	font-size: 5em;
+}
+
+h2 {
+	font-family: Thompson Modern;
+	font-size: 30px;
+	color: #1f1f1f;
+}
+
+h3 {
+	font-family: Didot;
+	color: black;
+	font-size: 28px;
+}
+
+.bs-quote {
+	text-align: center; 
+	margin: 50px 18%;
+	padding-bottom: 20px;
+}
+
+h3 span {
+	font-family: Palatino;
+	font-size: 50px;
+	color: #0045f2;
+}
+
 *.videocontainers {
-	width: 60.0%;
+	width: 70.0%;
 	margin: 0 auto;
 }
 
@@ -55,12 +102,40 @@ body {
 	margin: 0 auto;
 }
 
-h4 {
+p {
 	font-family: Thompson Modern;
-	color: rgb(123,146,162);
-	text-align: center;
-	margin: 30.0px 23.0%;
+	color: ##1f1f1f;
+	text-align: left;
+	font-size: 22px;
+	line-height: 1.38em;
+	letter-spacing: 0.01em;
+	/* margin: 30.0px 23.0%; */
 }
+
+.schools-ul {
+	font-family: Thompson Modern;
+	color: #1f1f1f;
+	font-size: 22px;
+	line-height: 1.38em;
+	list-style-type: none;
+	letter-spacing: 0.01em;
+	font-weight:300;
+}
+
+.schools-ul li {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 24px;
+	font-weight: 500;
+	letter-spacing: 0.01em;
+}
+
+.school-specs {
+	font-size: 22px;
+	letter-spacing: 0.01em;
+	font-weight: 300;
+}
+
 
 hr {
 	width: 4.0%;
@@ -69,53 +144,72 @@ hr {
 	margin: 40.0px auto 40.0px auto;
 }
 
-p {
+/*p {
 	clear: both;
+}*/
+
+*.collegelogo-left {
+	float: left;
+	max-width: 30%;
+	display: inline-block;
+	padding: 20px 30px;
 }
 
-*.collegelogo {
-	float: none;
+.collegelogo-right {
+	float: right;
+	max-width: 20%;
+	display: inline-block;
+	padding-left: 20px 30px;
+}
+
+.test-block {
+	margin-top: 60px;
 }
 
 *.applybtn {
-	background-color: white;
-	border: rgb(0,182,230) solid;
-	font-family: Arial;
-	color: rgb(0,182,230);
-	padding: 1.0% 5.0%;
-	width: 100.0%;
-	height: 3.0%;
+	background-color: #0045f2;
+	border: none;
+	font-family: Thompson Modern;
+	font-size: 28px;
+	color: white;
+	padding: 10px 0px;
+	width: 50vw;
+	height: 80px;
+	margin-top: 50px;
 }
 
 a, a:hover, a:visited, a:link, a:active {
 	text-decoration: none;
 }
 
-a:link, a:visited {
-	color: rgb(0,182,230);
+/*a:link, a:visited {
+	color: white;
+}*/
+
+.applybtn:hover, .applybtn:active {
+	color: #0045f2;
+	background-color: white;
+	border: #0045f2 solid;
+	outline: none;
 }
 
-a:hover, a:active {
-	color: white;
-	background-color: rgb(0,182,230);
+.bolded {
+	font-weight:500;
 }
 
  .imgcontainer {
- 	margin: 0 auto;
+ 	margin: -30px 1%;
  	position: relative;
- 	width: 100%;
- 	background: #0C2C4F;
- 	margin-top: 50px;
+ 	/*width: 100%;*/
+ 	/*background: #0C2C4F;*/
+ /*	margin-top: 10px;*/
  	height: 70vw;
- 	margin-bottom: 6vw;
- 	padding: 50px;
+/* 	margin-bottom: 6vw;*/
+/* 	padding: 50px 0px;*/
 	z-index: 0;
  }
 
 @media only screen and (max-width: 991px) {
-	.imgcontainer {
-		background: #FFF
-	}
 	
 	#marg-fix {
 	margin-top: -27vw;
@@ -150,7 +244,12 @@ a:hover, a:active {
 } */
 
 .meet-title {
+	text-justify: left;
 	margin-top: 50px;
 }
- 
 
+.test-name {
+	font-weight: 500; 
+	font-size: 25px;
+	line-height: 53px;
+}
