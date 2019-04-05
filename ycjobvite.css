@@ -176,11 +176,12 @@ hr {
 	width: 50vw;
 	height: 80px;
 	margin-top: 50px;
-}
-
-a, a:hover, a:visited, a:link, a:active {
 	text-decoration: none;
 }
+
+/* a, a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+} */
 
 .applybtn:hover, .applybtn:active {
 	color: #0045f2;
